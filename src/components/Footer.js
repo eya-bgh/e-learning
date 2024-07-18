@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="bg-[#F5F4FF]  lg:h-[420px] max-lg:h-[500px]  lg:px-16 lg:p-[70px] ">
+    <section className="bg-[#F5F4FF]  lg:h-[400px] max-lg:h-[300px]  lg:px-16 lg:p-[70px] ">
       <div className=" lg:flex lg:justify-between max-lg:text-center">
         <div>
-          <h4 className="font-Caprasimo lg:text-8xl max-lg:text-16xl ">Bright</h4>
-          <p className="text-base text-blackish font-montserrat lg:text-start w-[348px] h-[87px] mt-2  max-lg:mx-auto ">
+          <h4 className=" lg:text-6xl max-lg:text-16xl font-caprasimo">Bright</h4>
+          <p className="text-base text-blackish font-montserrat lg:text-start w-[348px] h-[87px] mt-4  max-lg:mx-auto ">
             BRIGHT, an e-learning platform revolutionizes learning with
             interactive education and gamification, making it easier and more
             entertaining.
@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="text-xl flex justify-between  lg:w-2/5 md:w-3/5 sm:w-[70%] max-sm:w-[100%] max-lg:mx-auto max-lg:p-6">
           <div>
-            <h5 className="text-blackish font-montserrat font-semibold">
+            <h5 className="text-blackish font-montserrat font-semibold mb-2">
               Site map
             </h5>
             <div className="opacity-[.800000011920929]">
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h5 className="text-blackish font-montserrat font-semibold ">
+            <h5 className="text-blackish font-montserrat font-semibold mb-2">
               Social media
             </h5>
             <div className="opacity-[.800000011920929]">
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
 
           <div className="max-sm:hidden">
-            <h5 className="text-blackish font-montserrat font-semibold ">
+            <h5 className="text-blackish font-montserrat font-semibold mb-2">
               Product
             </h5>
             <div className="opacity-[.800000011920929]">
